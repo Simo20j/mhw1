@@ -1,0 +1,135 @@
+@font-face {
+   font-family: 'Inter';
+   src: url('Esercitazioni Web Programming/Inter-VariableFont_wdth,wght.woff2') format('woff2'),
+        url('Esercitazioni Web Programming/Inter-VariableFont_wdth,wght.woff') format('woff'),
+        url('Esercitazioni Web Programming/Inter-VariableFont_wdth,wght.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+body {
+   margin: 0;
+   width: 100vw;
+   background-color: #131313;
+   font-family: 'Inter', sans-serif;
+}
+
+#viola{
+   color: #A557FF;
+}
+
+ .Navigazione {
+    display: flex;
+    color: white;
+    font-size: 1vw;
+    height: 17vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+ }
+
+header#Ondarock {
+  
+   height: 7vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 2vw;
+ }
+
+ .Onda {
+   height: 70%;
+   width: auto;
+ }
+
+ input#Ricerca {
+   float: right;
+   margin-top: 5vh;
+   margin-right: 5vw;
+   width: 50vw;
+   background-color: gray;
+ }
+
+ div#flex-container1 {
+   display: flex;
+   justify-content: space-between;
+   padding: 2.5vw;
+ }
+
+ div#Sx {
+   color: white;
+   display: flex;
+   flex-direction: column;
+ }
+
+ div#Img {
+   display: inline-block;
+ }
+
+ h1 {
+   font-size: 3vw;
+   padding-bottom: 5vh;
+   font-weight: bold;
+ }
+
+ div.TextCorte {
+   font-size: 1.2vw;
+ }
+
+ img#BegliUomini {
+   width: 60vw;
+ }
+
+ #Mezzo {
+   display:flex;
+   align-items: center;
+   background-color: #F2F2F2;
+   height: 400px;
+   padding: 2vw;
+ }
+
+ #Mezzo div{
+   display:flex;
+   align-items: center;
+   width: 100%;
+ }
+
+ #Mezzo img{
+   height:100%;
+   width: 100%;
+ }
+
+ #footer1 {
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1vw 2vw;
+ }
+
+#Social div{
+   height: 40px;
+   width: auto;   
+   display: flex;
+   align-items: center;
+   width: auto; 
+}
+
+#Social img{
+   height: 40px;
+   width: auto;
+}
+
+#footer2 {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 4vw 15vh 35vh 1vh;
+}
+
+#footer2 {
+   color: white;
+   font-weight: bold;
+   font-size: 1vw;
+}
